@@ -4,7 +4,7 @@ describe("Unit Testing", () => {
   });
 
   it("to compare different baseUrls", () => {
-    expect("baseUrl      http://localhost:3000/").to.not.equal(
+    expect("baseUrl http://localhost:3000/").to.not.equal(
       "http://localhost:3000/"
     );
   });
